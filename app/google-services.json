@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427802150465",
+    "firebase_url": "https://vehiclelicense-5dd97.firebaseio.com",
+    "project_id": "vehiclelicense-5dd97",
+    "storage_bucket": "vehiclelicense-5dd97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427802150465:android:118d86cdc7214ef6b2a8c0",
+        "android_client_info": {
+          "package_name": "com.example.vehiclelicense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427802150465-5vv183si8hv97uc9hhtjtjv6dn3oso5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOtXhtnoafSDpHieIs2mBqwRLErWTjdoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427802150465-5vv183si8hv97uc9hhtjtjv6dn3oso5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

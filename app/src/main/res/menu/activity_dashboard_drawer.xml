@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/menu_home"
+             />
+        <item
+            android:id="@+id/nav_v_registration"
+            android:icon="@drawable/ic_register_vehicle_24dp"
+            android:title="Vehicle Registration"
+            android:iconTint="@color/colorPrimary"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="Vehicle Renewal" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="Make Payment" />
+        <item
+            android:id="@+id/nav_v_payment_history"
+            android:icon="@drawable/ic_payment_history_black_24dp"
+            android:title="License Certificate" />
+    </group>
+
+    <item android:title="Particulars">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_view_vehicle_detail_24dp"
+                android:title="Vehicle Details" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_view_profile_24dp"
+                android:title="View Profile" />
+            <item
+                android:id="@+id/nav_v_logout"
+                android:icon="@drawable/ic_logout_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

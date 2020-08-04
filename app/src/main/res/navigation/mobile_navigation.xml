@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.vehiclelicense.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_v_registration"
+        android:name="com.example.vehiclelicense.ui.v_registration.VRegistrationFragment"
+        android:label="Vehicle Registration"
+        tools:layout="@layout/fragment_v_registration" />
+
+    <fragment
+        android:id="@+id/nav_v_payment_history"
+        android:name="com.example.vehiclelicense.ui.v_payment_history.V_PAYMENT_HISTORY"
+        android:label="License Certificate"
+        tools:layout="@layout/v_payment_history_fragment" />
+    <fragment
+        android:id="@+id/nav_v_logout"
+        android:name="com.example.vehiclelicense.ui.logout.v_logout"
+        android:label="PAYMENT HISTORY"
+         />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.vehiclelicense.ui.vehiclerenewal.VehicleRenewalFragment"
+        android:label="Vehicle Renewal"
+        tools:layout="@layout/fragment_renewal" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.vehiclelicense.ui.makepayment.MakePaymentFragment"
+        android:label="Process Payment"
+        tools:layout="@layout/fragment_makepayment" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.vehiclelicense.ui.vehicle_detail.VehicleDetailFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_vehicle_detail" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.vehiclelicense.ui.profile.ProfileFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

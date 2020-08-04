@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#921111</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="btn_color">#AF1F1F</color>
+    <color name="gridviewbordercolor">#4b88c9</color>
+    <color name="TRANSPARENT_WHITE">#D8D0D3</color>
+</resources>
